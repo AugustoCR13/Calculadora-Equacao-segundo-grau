@@ -49,10 +49,12 @@ function confirma(){
             Delta.innerHTML =`Delta: ${delta}`;
             X1.innerHTML =`X1: ${x1}`;
             X2.innerHTML =`X: ${x2}`;
+            Fala.innerHTML= `Insira a variável B`;
         break;
         case 2:
             b = valor;
             B.innerHTML =`B: ${b}`;
+            Fala.innerHTML= `Insira a variável C`;
         break;
         case 3:
             c = valor;
@@ -65,6 +67,7 @@ function confirma(){
             X1.innerHTML =`X1: ${x1}`;
             X2.innerHTML =`X: ${x2}`;
             a=0; b=0; c=0; delta=0; x1=0; x2=0; variavel=0;
+            Fala.innerHTML= `Insira a proxima variável A`;
         break;
     }
     valor = 0;
