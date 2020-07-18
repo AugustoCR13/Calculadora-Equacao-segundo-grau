@@ -67,7 +67,7 @@ function confirma(){
             X1.innerHTML =`X1: ${x1}`;
             X2.innerHTML =`X: ${x2}`;
             a=0; b=0; c=0; delta=0; x1=0; x2=0; variavel=0;
-            Fala.innerHTML= `Insira a proxima variável A`;
+            Fala.innerHTML= `Insira a variável A`;
         break;
     }
     valor = 0;
