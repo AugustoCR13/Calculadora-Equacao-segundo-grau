@@ -39,6 +39,10 @@ function clique9() {
     valor = valor*10 +9;
     Exibe.innerHTML=` ${valor}`;
 }
+function negativo() {
+    valor = valor*-1;
+    Exibe.innerHTML=` ${valor}`;
+}
 function confirma(){
     switch (variavel) {
         case 1: 
