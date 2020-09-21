@@ -10,67 +10,76 @@ div {
 }
 
 #Geral {
-    width: 365px;
-    height: 200px;
+    width: 195px;
+    height: 275px;
 }
-p, ul, h3{
-    margin-top: 5px;
-    margin-bottom: 5px;
+h3{
+    margin-top: 3px;
+    margin-bottom: 7px;
+    text-align: center;
 }
-h3 {
+p {
+    margin-top: 1px;
+    margin-bottom: 1px;
     text-align: center;
 }
 
 #Tela{
-    width: 200px;
-    height: 160px;
+    width: 180px;
+    height: 80px;
     position: absolute;
     top: 40px;
     left: 15px;
 }
+#Variaveis{
+    border-style: unset ;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+#A, #Delta {
+    margin-left: 3px;
+}
 #Fala {
     text-align: center;
-}
-#ul1{
-    padding-left: 30px;
 }
 #ul2{
     position: absolute;
     left: 80px;
 }
-
-#Teclado {
-    width: 140px;
-    height: 155px;
-    position: absolute;
-    top: 40px;
-    left: 215px;
-    padding-top: 5px;
-    padding-left: 10px;
-    border-left: 0;
-}
 #Exibe {
+    width: 135px;
     margin-top: 0px;
     margin-bottom: 0px; 
     text-align: end;
     padding-right: 10px;
 }
+
 .Numeros{
-    width: 40px;
+    width: 50px;
     margin-right: 3px;
     margin-bottom: 3px;
 }
+#Teclado {
+    width: 172.5px;
+    height: 147.5px;
+    position: absolute;
+    top: 122px;
+    left: 15px;
+    padding-top: 5px;
+    padding-left: 7.2px;
+}
 #btn-0 {
-    margin-left: 47px;
+    margin-left: 5px;
+}
+#negativo{
+    margin-left: 20px;
 }
 
 #Menu{
     width: 135px;
-    margin-top: 5px;;
-    border-left-width: 0px;
-    border-top-width: 0px;
-    border-bottom-width: 0px;
-    border-right-width: 0px;
+    margin-top: 2.5px;
+    margin-left: 10px;
+    border-width: 0px;
 }
 .Bm {
     width: 65px;
