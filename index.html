@@ -3,25 +3,23 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Calculadora Equação do 2º</title>
+        <title>Calculadora Equaçãoo do 2º</title>
         <link rel="stylesheet" href="estilos.css"> </link>
-        <script src="scripts.js"> </script>
+        <script src="script.js"> </script>
     </head> 
 <body>
    <div id="Geral">
-    <h3>Equação do segundo grau</h3>
+    <h3>Equação do 2º grau</h3>
        <div id="Tela">
-           <p id="Fala">Insira a variável A</p>
-           <ul id="ul1">
-                <li id="A">A: </li>
-                <li id="B">B: </li>
-                <li id="C">C </li>
-            </ul>
-            <ul id="ul2">
-                <li id="Delta">Delta: </li>
-                <li id="X1">X' </li>
-                <li id="X2">X'' </li>
-            </ul>
+           <p id="Fala">Insira a variavel </p>
+           <div id="Variaveis">
+            <label id="A">000 X² +</label>
+            <label id="B">000 X +</label>
+            <label id="C">000 = 0</label>
+           </div>
+            <label id="Delta">Δ= 000</label>
+            <label id="X1">X'= 000</label>
+            <label id="X2">X''= 000 </label>
         </div>
        <div id="Teclado">
             <p id="Exibe">0</p>
@@ -34,7 +32,7 @@
             <button class="Numeros" onclick="clique7()"> 7 </button>
             <button class="Numeros" onclick="clique8()"> 8 </button>
             <button class="Numeros" onclick="clique9()"> 9 </button>
-            <button class="Numeros" id="negativo" onclick="negativo"> -+ </button>
+            <button class="Numeros" id="negativo" onclick="negativo()"> -+ </button>
             <button class="Numeros" id="btn-0" onclick="clique0()"> 0 </button>
             <div id="Menu">
                 <button class="Bm"id="apagar" onclick="apagar()">apagar</button>
