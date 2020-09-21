@@ -48,10 +48,13 @@ function confirma(){
         case 1: 
             a = valor;
             A.innerHTML =`${a} X² +`;
-            /*Delta.innerHTML =`Delta: ${delta}`;
-            X1.innerHTML =`${x1}`;
-            X2.innerHTML =`${x2}`;*/
             Fala.innerHTML= `Insira a variável B`;
+            
+            B.innerHTML =`${b} X +`;
+            C.innerHTML =`${c} = 0`;
+            Delta.innerHTML =`Delta: ${delta}`;
+            X1.innerHTML =`${x1}`;
+            X2.innerHTML =`${x2}`;
         break;
         case 2:
             b = valor;
